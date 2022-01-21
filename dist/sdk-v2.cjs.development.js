@@ -20,8 +20,8 @@ var IPancakePair = _interopDefault(require('@pancakeswap-libs/pancake-swap-core/
 var _SOLIDITY_TYPE_MAXIMA;
 
 (function (ChainId) {
-  ChainId[ChainId["MAINNET"] = 56] = "MAINNET";
-  ChainId[ChainId["BSCTESTNET"] = 97] = "BSCTESTNET";
+  ChainId[ChainId["MAINNET"] = 43114] = "MAINNET";
+  ChainId[ChainId["BSCTESTNET"] = 43113] = "BSCTESTNET";
 })(exports.ChainId || (exports.ChainId = {}));
 
 (function (TradeType) {
@@ -35,8 +35,8 @@ var _SOLIDITY_TYPE_MAXIMA;
   Rounding[Rounding["ROUND_UP"] = 2] = "ROUND_UP";
 })(exports.Rounding || (exports.Rounding = {}));
 
-var FACTORY_ADDRESS = '0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73';
-var INIT_CODE_HASH = '0x00fb7f630766e6a796048ea87d01acd3068e8ff67d078148a3fa3f4a84f69bd5';
+var FACTORY_ADDRESS = '0x2855ccc0C9bbC7998C64479669e77759c462a451';
+var INIT_CODE_HASH = '0xdac30d936886a4354b3438947fec9defe2744435e205ad5d0078feb00a4f5dc1';
 var MINIMUM_LIQUIDITY = /*#__PURE__*/JSBI.BigInt(1000); // exports for internal consumption
 
 var ZERO = /*#__PURE__*/JSBI.BigInt(0);
